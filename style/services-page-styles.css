@@ -1,0 +1,51 @@
+.services-wrapper .services-title-wrapper {
+  text-align: center;
+  margin: 45px 0;
+  -webkit-animation: fade-in linear 0.5s;
+          animation: fade-in linear 0.5s;
+}
+
+.services-wrapper .services-title-wrapper p {
+  color: #e5e5e5;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.services-wrapper .services-main-content .services-sub-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.services-wrapper .services-main-content .services-sub-nav a {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+.services-wrapper .service-sub-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.services-wrapper .service-sub-wrapper .service-image img {
+  width: 380px;
+  height: 470px;
+  margin: 143px 0px;
+}
+
+.services-wrapper .service-sub-wrapper .service-text {
+  color: #e5e5e5;
+  margin: 143px 0px;
+  text-align: center;
+  padding: 160px;
+}
+/*# sourceMappingURL=services-page-styles.css.map */

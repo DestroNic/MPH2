@@ -1,0 +1,30 @@
+#render-wrapper {
+    .main-content-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 23% 10% 10% 10%;
+        animation: fade-in linear 1s;
+        img {
+            width: 28%;
+        }
+
+        p {
+            color: #e5e5e5;
+            width: 28%;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+    }
+    .learn-more-wrapper {
+        text-align: center;
+        margin-bottom: 15%;
+        a {
+            text-decoration: none;
+            color: #e5e5e5;
+            border: 1px solid #e5e5e5;
+            padding: 15px 40px;
+        }  
+    }
+}

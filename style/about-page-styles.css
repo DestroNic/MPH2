@@ -1,0 +1,41 @@
+.about-wrapper .about-title-wrapper {
+  text-align: center;
+  margin: 45px 0;
+  -webkit-animation: fade-in linear 0.5s;
+          animation: fade-in linear 0.5s;
+}
+
+.about-wrapper .about-title-wrapper p {
+  color: #e5e5e5;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.about-wrapper .about-main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 8% auto;
+}
+
+.about-wrapper .about-main-content img {
+  width: 380px;
+  -webkit-animation: fade-in linear 1s;
+          animation: fade-in linear 1s;
+}
+
+.about-wrapper .about-main-content .mission-statement {
+  width: 380px;
+  color: #e5e5e5;
+  padding: 100px 0;
+  -webkit-animation: fade-in linear 1.5s;
+          animation: fade-in linear 1.5s;
+}
+
+.about-wrapper .about-main-content .mission-statement .ms-title {
+  font-size: 25px;
+}
+/*# sourceMappingURL=about-page-styles.css.map */

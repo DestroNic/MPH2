@@ -1,0 +1,36 @@
+#render-wrapper .main-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 23% 10% 10% 10%;
+  -webkit-animation: fade-in linear 1s;
+          animation: fade-in linear 1s;
+}
+
+#render-wrapper .main-content-wrapper img {
+  width: 28%;
+}
+
+#render-wrapper .main-content-wrapper p {
+  color: #e5e5e5;
+  width: 28%;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#render-wrapper .learn-more-wrapper {
+  text-align: center;
+  margin-bottom: 15%;
+}
+
+#render-wrapper .learn-more-wrapper a {
+  text-decoration: none;
+  color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  padding: 15px 40px;
+}
+/*# sourceMappingURL=home-page-styles.css.map */
